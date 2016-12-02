@@ -7,7 +7,7 @@ extern "C"
          	else return factorial(n - 1) * n;
    	}
  
-   	__declspec(dllexport) int C(int n, int k) {
+   	__declspec(dllexport) int Cnk(int n, int k) {
          	return factorial(n) / (factorial(k)*factorial(n - k));
    	}
  	
